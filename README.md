@@ -30,6 +30,7 @@ graph LR
     C -- Match Logic --> D[Order Book RAM]
     C -- Event: TRADE --> E[Redis Pub/Sub]
     E -- WebSocket --> F[Live Dashboard]
+```
 🛠️ Tech Stack
 Runtime: Bun (Chosen for native WebSocket support and faster startup than Node.js).
 
